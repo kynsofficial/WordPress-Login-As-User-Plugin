@@ -160,5 +160,4 @@ function aptlearn_login_as_user_show_banner() {
 }
 add_action( 'wp_footer', 'aptlearn_login_as_user_show_banner' );
 
-    // download function.
 
