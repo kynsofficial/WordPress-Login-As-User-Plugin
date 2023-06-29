@@ -1,2 +1,45 @@
-# WordPress-Login-As-User-Plugin
-Administrator can login as user
+# aptLearn Login as User WordPress Plugin
+
+## Description
+
+The aptLearn Login as User plugin is a WordPress plugin that adds a "Login as User" button to the wp-admin user page column. This allows administrators to log in as a specific user directly from the wp-admin user page. The plugin also displays a sticky banner for administrators to return back to the wp-admin user page and be logged back in as an admin. This plugin is originally developed and Licensed to aptLearn, but feel free to use it.
+
+## Installation
+
+1. Download the plugin files.
+2. Upload the plugin files to the `/wp-content/plugins/aptlearn-login-as-user` directory, or install the plugin through the WordPress plugins screen directly.
+3. Activate the plugin through the 'Plugins' screen in WordPress.
+
+## Usage
+
+Once the plugin is activated, you will see a new "Login as User" button in the wp-admin user page column. Clicking this button will log you in as that user and redirect you to the home page.
+
+While logged in as a user, a sticky banner will be displayed at the bottom of the page. This banner shows the username of the current user and a "Login back as [admin]" button. Clicking this button will log you back in as the admin and redirect you to the previous page you were on in the wp-admin.
+
+## Functions
+
+The plugin defines several functions:
+
+- `aptlearn_login_as_user_activate()`: This function is called when the plugin is activated.
+- `aptlearn_login_as_user_deactivate()`: This function is called when the plugin is deactivated.
+- `aptlearn_login_as_user_column()`: This function adds the "Login as User" button to the wp-admin user page column.
+- `aptlearn_login_as_user_column_content()`: This function displays the "Login as User" button for each user in the wp-admin user page column.
+- `aptlearn_login_as_user_auto_login()`: This function automatically logs in the user when the "Login as User" button is clicked.
+- `aptlearn_login_as_user_auto_login_back()`: This function automatically logs the admin back in when they click the "Login back as" button.
+- `aptlearn_login_as_user_show_banner()`: This function displays the login as user banner for all roles.
+
+## Author
+
+This plugin was developed by Akinola A. You can find more about the author at [aptlearn.io](https://akinolaakeem.com/).
+
+## Version
+
+The current version of the plugin is 1.0.
+
+## License
+
+This plugin is licensed to aptLearn. You are free to use it under the terms of the license.
+
+## Support
+
+For any issues or suggestions, please feel free to contact the author at [aptlearn.io](https://aptlearn.io/).
