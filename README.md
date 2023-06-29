@@ -2,7 +2,7 @@
 
 ## Description
 
-The aptLearn Login as User plugin is a WordPress plugin that adds a "Login as User" button to the wp-admin user page column. This allows administrators to log in as a specific user directly from the wp-admin user page. The plugin also displays a sticky banner for administrators to return back to the wp-admin user page and be logged back in as an admin. This plugin is originally developed and Licensed to aptLearn, but feel free to use it.
+The aptLearn Login as User plugin is a WordPress plugin that adds a "Login as User" button to the wp-admin user page column. This allows administrators to log in as a specific user directly from the wp-admin user page. The plugin also displays a sticky banner for administrators to return back to the wp-admin user page and be logged back in as an admin. I originally developed this plugin as a backend developer aptLearn but feel free to use it😉.
 
 ## Installation
 
